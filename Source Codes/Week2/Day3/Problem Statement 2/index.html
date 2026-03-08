@@ -1,0 +1,67 @@
+<!--JS_Day8_Hands_on_Problem_Statement2_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Toggle Application</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding-top: 100px;
+            transition: 0.3s;
+        }
+
+        .dark-mode {
+            background-color: #222;
+            color: white;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Blog Website</h1>
+    <p>Welcome to My Blog Website.</p>
+    <p> You can Switch Between Light and Dark Mode.</p>
+
+    <button id="themeToggle">Toggle Theme</button>
+
+    <script>
+        const toggleBtn = document.getElementById("themeToggle");
+        const body = document.body;
+
+        // Load saved theme
+        const savedTheme = localStorage.getItem("theme");
+
+        if (savedTheme === "dark") {
+            body.classList.add("dark-mode");
+        }
+
+        // Toggle theme
+        toggleBtn.addEventListener("click", () => {
+
+            body.classList.toggle("dark-mode");
+
+            if (body.classList.contains("dark-mode")) {
+                localStorage.setItem("theme", "dark");
+            } else {
+                localStorage.setItem("theme", "light");
+            }
+
+        });
+    </script>
+
+</body>
+
+</html>

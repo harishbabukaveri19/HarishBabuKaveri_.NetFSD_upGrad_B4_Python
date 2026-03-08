@@ -1,0 +1,25 @@
+Problem 4 (Level-2): Interactive To-Do List Application
+Scenario:
+A productivity web app requires a dynamic To-Do List where users can add, mark as complete, and remove tasks using jQuery.
+
+Requirements
+• Provide an input field and Add button to insert tasks.
+• Display tasks dynamically in a list.
+• Allow users to mark tasks as completed (strike-through effect).
+• Provide a delete button for each task.
+• Display total task count and completed task count dynamically.
+
+️ Technical Constraints
+• Use jQuery for all DOM manipulation and event handling.
+• Use append(), remove(), toggleClass(), and on() methods.
+• No external libraries except jQuery.
+ 
+Expectations:
+• Proper dynamic element handling.
+• Efficient event binding for dynamically created elements.
+• Responsive and interactive UI behavior.
+
+Learning Outcome
+• Master jQuery DOM manipulation.
+• Implement dynamic event handling.
+• Build a small interactive application using jQuery.

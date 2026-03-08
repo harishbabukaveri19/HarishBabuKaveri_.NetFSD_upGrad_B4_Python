@@ -1,0 +1,127 @@
+<!--jQuery_Day11_Hands_on_Problem_Statement3_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product Cart Counter</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background:honeydew;
+        }
+
+        .cart {
+            font-size: 20px;
+            margin: 20px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 180px;
+            box-shadow: 0 0 5px gray;
+        }
+
+        button {
+            padding: 6px 12px;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+
+        .msg {
+            color: green;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>E-Commerce Store</h2>
+
+    <div class="cart">
+        🛒 Cart Items: <span id="cartCount">0</span>
+    </div>
+
+    <div class="products">
+
+        <div class="product">
+            <h4>Laptop</h4>
+            <p>₹25,000</p>
+            <button class="addCart">Add to Cart</button>
+            <button class="removeCart" disabled>Remove</button>
+            <p class="msg"></p>
+        </div>
+
+        <div class="product">
+            <h4>Mobile</h4>
+            <p>₹10,000</p>
+            <button class="addCart">Add to Cart</button>
+            <button class="removeCart" disabled>Remove</button>
+            <p class="msg"></p>
+        </div>
+
+        <div class="product">
+            <h4>Headphones</h4>
+            <p>₹500</p>
+            <button class="addCart">Add to Cart</button>
+            <button class="removeCart" disabled>Remove</button>
+            <p class="msg"></p>
+        </div>
+
+        <div class="product">
+            <h4>Smart Watch</h4>
+            <p>₹1,200</p>
+            <button class="addCart">Add to Cart</button>
+            <button class="removeCart" disabled>Remove</button>
+            <p class="msg"></p>
+        </div>
+
+    </div>
+
+    <script>
+
+        let cart = 0;
+
+        // Add to Cart
+        $(".addCart").click(function () {
+
+            cart++;
+            $("#cartCount").text(cart);
+
+            $(this).prop("disabled", true);
+            $(this).siblings(".removeCart").prop("disabled", false);
+
+            $(this).siblings(".msg").text("Added to Cart ✓");
+
+        });
+
+        // Remove from Cart
+        $(".removeCart").click(function () {
+
+            cart--;
+            $("#cartCount").text(cart);
+
+            $(this).prop("disabled", true);
+            $(this).siblings(".addCart").prop("disabled", false);
+
+            $(this).siblings(".msg").text("Removed from Cart");
+
+        });
+
+    </script>
+</body>
+</html>
+

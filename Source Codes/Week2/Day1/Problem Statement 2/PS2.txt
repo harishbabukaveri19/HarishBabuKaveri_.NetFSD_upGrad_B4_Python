@@ -1,0 +1,29 @@
+Problem 2: Live Form Validation with Events (Level-1)
+Scenario
+Create a simple registration form that validates user input when fields change.
+📌 Requirements
+•	Fields:
+Name
+Email
+Age
+•	Use:
+onchange
+onclick
+•	Validate:
+Name cannot be empty
+Email must contain "@"
+Age must be greater than 18
+•	Display validation message dynamically.
+•	Store valid user data in sessionStorage.
+🛠️ Technical Constraints
+•	Must use inline onchange events.
+•	Store valid data using:
+sessionStorage.setItem()
+•	No external libraries.
+•	Use basic JavaScript only.
+🎯 Learning Outcome
+You will be able to:
+•	onchange event usage
+•	Form validation logic
+•	Difference between localStorage and sessionStorage
+•	Dynamic DOM updates

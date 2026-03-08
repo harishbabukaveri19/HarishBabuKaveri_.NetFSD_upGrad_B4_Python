@@ -1,0 +1,61 @@
+<!--JS_Day8_Hands_on_Problem_Statement1_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Feedback</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background-color: lightsteelblue;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        #message {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Feedback Form</h2>
+
+    <textarea rows="10" cols="40" placeholder="Write your Feedback Here...."></textarea><br><br>
+
+    <button id="feedbackBtn">Submit Feedback</button>
+
+    <p id="message"></p>
+
+    <script>
+        const button = document.getElementById("feedbackBtn");
+        const message = document.getElementById("message");
+        const textarea = document.querySelector("textarea");
+
+        button.addEventListener("click", function () {
+
+            if (textarea.value.trim() === "") {
+                //alert("Please Enter Your Feedback Before Submitting.");
+                message.textContent = "Please Enter Your Feedback Before Submitting.";
+                message.style.color = "red";
+            } else {
+                message.textContent = "Thank you! Your Feedback Has Been Submitted.";
+                message.style.color = "green";
+
+                textarea.value = "";
+            }
+        });
+    </script>
+
+</body>
+
+</html>

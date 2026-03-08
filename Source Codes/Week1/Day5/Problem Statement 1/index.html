@@ -1,0 +1,39 @@
+<!--JS_Day5_Hands_on_Problem_Statement1_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting Generator</title>
+
+    <style>
+        body{
+            text-align: center;
+            background-color: azure;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Greeting Generator</h1>
+
+    <input type="text" id="username" placeholder="Enter your name">
+
+    <button onclick="generateGreeting()">Generate Greeting</button>
+
+    <p id="greeting"></p>
+
+    <script>
+        function generateGreeting() {
+
+            var name = document.getElementById("username").value;
+
+            var message = "Hello, " + name + "! Welcome to the Greeting Generator Website.";
+
+            document.getElementById("greeting").innerText = message;
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+Problem 5: Responsive Dashboard Layout (Level-2)
+Scenario
+You are designing a simple admin dashboard layout for a web application.
+📌 Requirements
+Create a layout with:
+•	Sidebar navigation
+•	Main content area
+•	Info cards inside the main section
+Use:
+•	display properties
+•	Flexbox or Grid for page structure
+Style:
+•	Sidebar with background color
+•	Cards with borders, padding, and margins
+Apply media queries to:
+•	Convert sidebar into top navigation on mobile
+•	Stack cards vertically on small screens
+
+🛠️ Technical Constraints
+•	HTML + CSS only
+•	No JavaScript
+•	No external UI libraries
+
+🎯 Learning Outcome
+You will be able to:
+•	Master page layouts using Flexbox/Grid
+•	Apply modern responsive web design techniques
+•	Understand how layout adapts across devices
+•	Build industry-relevant UI structures
+
+

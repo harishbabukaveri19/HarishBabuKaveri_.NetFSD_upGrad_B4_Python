@@ -1,0 +1,34 @@
+Problem 3: Location-Based Weather Logger (Level-2)
+Scenario
+Create a web application that fetches the user's geographic location and stores location history in localStorage.
+
+📌 Requirements
+•	Button: Get My Location
+•	Use:
+navigator.geolocation.getCurrentPosition()
+•	Display:
+Latitude
+Longitude
+•	Handle:
+Permission denied
+Timeout
+Location unavailable
+•	Save last 5 location entries in localStorage.
+•	Display location history on page load.
+
+🛠️ Technical Constraints
+•	Must handle:
+Success callback
+Error callback
+•	Use browser permission handling.
+•	Store data as JSON using:
+JSON.stringify()
+JSON.parse()
+•	Use inline event (onclick).
+🎯 Learning Outcome
+Learners should be able to:
+•	Geolocation API
+•	Handling browser permissions
+•	Error handling in APIs
+•	Managing structured data in localStorage
+•	JSON parsing and stringifying

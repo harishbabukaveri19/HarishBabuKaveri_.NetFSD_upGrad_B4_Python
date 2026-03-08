@@ -1,0 +1,24 @@
+LEVEL – 1 (Problem 2): Theme Toggle Application
+Scenario:
+A small blog website wants to allow users to switch between 
+ Light Mode and Dark Mode interactively.
+ 
+Requirements
+• Create a toggle button to switch themes.
+• Change background and text color dynamically.
+• Store theme preference in localStorage.
+ 
+️ Technical Constraints
+• Use Vanilla JavaScript.
+• Use addEventListener() for events.
+• No CSS frameworks.
+
+Expectations:
+• Smooth theme switching.
+• Proper usage of localStorage.
+• Clean and modular JavaScript functions.
+ 
+Learning Outcome
+• Handling user interaction events.
+• Managing browser storage.
+------------------------------------------------------------

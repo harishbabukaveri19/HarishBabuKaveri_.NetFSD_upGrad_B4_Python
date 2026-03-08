@@ -1,0 +1,55 @@
+<!--JS_Day6_Hands_on_Problem_Statement1_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Notes</title>
+
+    <style>
+        body{
+            text-align: center;
+            background-color: beige;
+        }
+    </style>
+</head>
+<body onload="loadSavedNote()">
+
+    <h2>Personal Notes</h2>
+
+    <textarea id="noteBox" rows="10" cols="20" placeholder="Write Your Notes Here"></textarea>
+    <br><br>
+
+    <button onclick="saveNote()">Save</button>
+
+    <button onclick="clearNote()">Clear</button>
+
+    <script>
+    function saveNote() {
+        var noteText = document.getElementById("noteBox").value.trim();
+
+        if (noteText === "") {
+            alert("Please Enter Some Text Before Saving!");
+            return;
+        }
+
+        localStorage.setItem("myNoteKey", noteText);
+        alert("Note Saved!");
+    }
+
+    function loadSavedNote() {
+        var storedNote = localStorage.getItem("myNoteKey");
+        if (storedNote !== null) {
+            document.getElementById("noteBox").value = storedNote;
+        }
+    }
+
+    function clearNote() {
+        localStorage.removeItem("myNoteKey");
+        document.getElementById("noteBox").value = "";
+        alert("Note Cleared!");
+    }
+    </script>
+
+</body>
+</html>

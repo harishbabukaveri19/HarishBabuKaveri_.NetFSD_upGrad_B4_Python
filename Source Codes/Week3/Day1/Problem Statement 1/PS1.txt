@@ -1,0 +1,23 @@
+Problem 1 (Level-1): Student Feedback Form Interaction
+Scenario:
+A training institute wants to collect feedback from students through a simple web form. They want to enhance user experience using jQuery to validate inputs and display messages dynamically without reloading the page.
+Requirements
+• Create a feedback form with fields: Name, Email, Course Rating (dropdown), and Comments.
+• Use jQuery selectors to capture form inputs.
+• On clicking the Submit button, validate that Name and Email are not empty.
+• Display a success message dynamically below the form using jQuery DOM manipulation.
+• Clear the form fields after successful submission.
+ 
+️ Technical Constraints
+• Use jQuery CDN for integration.
+• Use basic jQuery syntax: $(selector).action().
+• Do not use plain JavaScript for validation (only jQuery methods).
+• No backend integration required.
+
+Expectations:
+• Proper use of jQuery selectors and event handling.
+• Clean and readable code structure.
+• Validation messages should be user-friendly.
+Learning Outcome:
+• Understand jQuery syntax and selectors.
+• Learn basic DOM manipulation using jQuery.

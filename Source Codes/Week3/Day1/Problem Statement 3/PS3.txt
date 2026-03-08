@@ -1,0 +1,24 @@
+Problem 3 (Level-2): Product List with Add to Cart Counter
+Scenario:
+An e-commerce website wants to display a list of products. When users click 'Add to Cart', the cart counter at the top should increase dynamically.
+Requirements
+• Display at least 4 products with 'Add to Cart' buttons.
+• Use jQuery to handle button click events.
+• Increase the cart counter dynamically without page refresh.
+• Disable the button once the product is added.
+• Display a small confirmation message beside the product.
+
+️ Technical Constraints
+• Use jQuery event delegation if needed.
+• Use .text(), .attr(), and .prop() methods.
+• No backend or database integration.
+
+Expectations:
+• Efficient event handling.
+• Proper use of jQuery methods for attribute manipulation.
+• Clean UI updates.
+ 
+Learning Outcome
+• Understand advanced DOM manipulation.
+• Use jQuery methods for dynamic content updates.
+• Apply event delegation concepts.

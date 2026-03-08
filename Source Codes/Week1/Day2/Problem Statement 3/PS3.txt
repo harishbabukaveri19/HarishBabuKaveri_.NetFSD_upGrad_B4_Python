@@ -1,0 +1,30 @@
+Problem 3: Student Registration Form with Input Types (Level-1) 
+Scenario 
+An institute wants a basic student registration form with built-in validation to reduce incorrect submissions. 
+📌 Requirements 
+Create an HTML webpage that includes: 
+ Create a form with following input types: 
+text (Name) 
+email 
+tel 
+number (Age) 
+date 
+Use HTML5 built-in validation: 
+required 
+min, max 
+pattern (for phone number) 
+Add submit button 
+ 
+🛠️ Technical Constraints 
+HTML5 only 
+No JavaScript validation 
+Use proper <label> tags 
+ 
+🎯 Learning Outcome 
+You will be able to: 
+Use advanced input types 
+Apply built-in HTML5 validation 
+Improve form usability without JavaScript 
+Browser should show validation errors automatically 
+Inputs should restrict invalid values 
+Form should be user-friendly

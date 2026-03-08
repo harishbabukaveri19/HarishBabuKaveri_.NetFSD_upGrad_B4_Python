@@ -1,0 +1,29 @@
+Problem 5: Course Enrollment Form with Advanced HTML Elements
+Scenario
+An online learning platform wants to enhance user experience by showing course progress, skill levels, and suggested inputs while filling the form.
+📌 Requirements
+Create an enrollment form using:
+•	<datalist> for course suggestions
+•	<progress> to show enrollment completion
+•	<meter> to indicate skill level (Beginner–Advanced)
+Include modern input types:
+•	email
+•	range
+•	number
+Use built-in validation
+
+🛠️ Technical Constraints
+•	HTML5 only
+•	No JavaScript or CSS
+•	Must use semantic elements
+
+🎯 Learning Outcome
+You will be able to:
+•	Use advanced HTML5 elements
+•	Enhance form UX without JavaScript
+•	Understand real-time data representation in HTML
+Browser should display:
+•	Dropdown suggestions via <datalist>
+•	Progress bar updates (static value)
+•	Meter shows skill level visually
+Clean and structured form layout

@@ -1,0 +1,23 @@
+PROBLEM 1: Student Marks Analyzer (LEVEL-1)
+Scenario:
+You are developing a small utility for a teacher
+ to analyze student marks stored in an array.
+
+📌 Requirements
+- Store student marks in an array.
+- Calculate total and average marks using array methods.
+- Display pass/fail result based on average.
+- Use let/const appropriately.
+- Use arrow functions for calculations.
+- Display output using template literals.
+
+🛠️ Technical Constraints
+- Must use array methods like reduce() and map().
+- Use only ES6+ syntax.
+- No external libraries.
+- All logic must be inside modular JavaScript file.
+
+🎯 Learning Outcome
+- Understand array processing.
+- Practice ES6 features.
+- Learn modular coding structure.

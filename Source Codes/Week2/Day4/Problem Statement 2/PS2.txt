@@ -1,0 +1,26 @@
+Level-1 Problem 2: Product Listing Page Using Bootstrap
+
+Scenario:
+Create a responsive product listing page for an online electronics store displaying multiple products in card format.
+
+📌 Requirements
+- Use Bootstrap grid to display products in 1 column (mobile), 2 columns (tablet), and 4 columns (desktop).
+- Each product should be displayed using Bootstrap Card component.
+- Include buttons such as “Add to Cart” and “View Details”.
+- Use spacing utilities and background color utilities.
+
+🛠️ Technical Constraints
+- Must use Bootstrap CDN.
+- Use built-in Bootstrap classes only.
+- Proper use of container, row, and col classes.
+
+
+Expectations:
+- Fully responsive layout.
+- Equal card height alignment.
+- Proper spacing using margin and padding utilities.
+
+🎯 Learning Outcome
+- Master grid layouts with multiple breakpoints.
+- Use Bootstrap cards and buttons.
+- Apply spacing and color utility classes.

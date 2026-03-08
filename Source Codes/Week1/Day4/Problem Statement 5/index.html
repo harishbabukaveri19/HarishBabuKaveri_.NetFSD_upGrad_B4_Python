@@ -1,0 +1,43 @@
+<!--JS_Day4_Hands_on_Problem_Statement5_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Analysis Tool</title>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        body{
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <h1>Number Analysis Tool</h1>
+    <script>
+	let number = prompt("Enter any Number:");
+	
+	let result = (number >= 0) ? "Positive" : "Negative";
+	console.log("Number is", result);
+	
+	if (number % 2 === 0) {
+	console.log("Number is Even");
+	} else {
+	console.log("Number is Odd");
+	}
+	
+	console.log("Numbers from 1 to " + number + ":");
+	
+	for (let i = 1; i <= number; i++) {
+	console.log(i);
+	}
+    </script>
+</body>
+</html>
+
+
+

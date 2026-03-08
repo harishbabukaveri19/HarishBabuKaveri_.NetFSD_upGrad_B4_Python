@@ -1,0 +1,48 @@
+<!--JS_Day5_Hands_on_Problem_Statement2_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info Display</title>
+
+    <style>
+        body {
+            text-align: center;
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>User Information</h2>
+
+    <button onclick="showUser()">Display User Info</button>
+
+    <p id="name"></p>
+    <p id="age"></p>
+    <p id="city"></p>
+
+    <script>
+
+        var user = {
+            name: "Kaveri Harish Babu",
+            age: 23,
+            city: "Nellore"
+        };
+
+        function displayUserInfo(userObj) {
+
+            document.getElementById("name").innerText = "Name: " + userObj.name;
+            document.getElementById("age").innerText = "Age: " + userObj.age;
+            document.getElementById("city").innerText = "City: " + userObj.city;
+        }
+
+        function showUser() {
+            displayUserInfo(user);
+        }
+
+    </script>
+
+</body>
+</html>

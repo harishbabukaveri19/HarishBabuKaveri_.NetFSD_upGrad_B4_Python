@@ -1,0 +1,54 @@
+<!--JS_Day5_Hands_on_Problem_Statement4_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+
+    <style>
+        body {
+            text-align: center;
+            background-color:lightcyan;
+        }
+    </style>
+</head>
+<body>
+    <h2>Dynamic Student Profile Manager</h2>
+
+    <button id="showBtn">Show Profile</button>
+    <button id="updateBtn">Update Marks</button>
+
+    <div id="profileBox"></div>
+
+    <script>
+
+        var student = {
+            name: "Kaveri Harish Babu",
+            rollNo: 573,
+            marks: 70   
+        };
+
+        function updateStudentProfile(studentObj) {
+            document.getElementById("profileBox").innerHTML =
+                "<p>Name: " + studentObj.name + "</p>" +
+                "<p>Roll No: " + studentObj.rollNo + "</p>" +
+                "<p>Marks: " + studentObj.marks + "</p>";
+        }
+
+        function updateMarks(newMarks) {
+            student.marks = newMarks;
+            updateStudentProfile(student);
+        }
+
+        document.getElementById("showBtn").addEventListener("click", function() {
+            updateStudentProfile(student);
+        });
+
+        document.getElementById("updateBtn").addEventListener("click", function() {
+            updateMarks(91);
+        });
+
+    </script>
+</body>
+</html>

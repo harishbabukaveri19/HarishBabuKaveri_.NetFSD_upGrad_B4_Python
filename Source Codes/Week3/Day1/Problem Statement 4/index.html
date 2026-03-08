@@ -1,0 +1,156 @@
+<!--jQuery_Day11_Hands_on_Problem_Statement4_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>jQuery To-Do List</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            background:lightblue;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .container {
+            width: 400px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input {
+            padding: 8px;
+            width: 70%;
+        }
+
+        button {
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        li {
+            padding: 10px;
+            background: #eee;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+        .delete {
+            background: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+        }
+
+        .stats {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>To-Do List</h2>
+
+        <input type="text" id="taskInput" placeholder="Enter a task">
+        <button id="addTask">Add</button>
+
+        <ul id="taskList"></ul>
+
+        <div class="stats">
+            Total Tasks: <span id="total">0</span> |
+            Completed: <span id="completed">0</span>
+        </div>
+
+    </div>
+
+
+    <script>
+
+        $(document).ready(function () {
+
+            function updateCount() {
+
+                let total = $("#taskList li").length;
+                let completed = $(".completed").length;
+
+                $("#total").text(total);
+                $("#completed").text(completed);
+
+            }
+
+            // Add Task
+            $("#addTask").click(function () {
+
+                let task = $("#taskInput").val();
+
+                if (task === "") {
+                    alert("Enter a task");
+                    return;
+                }
+
+                $("#taskList").append(`
+<li>
+<span class="taskText">${task}</span>
+<button class="delete">Delete</button>
+</li>
+`);
+
+                $("#taskInput").val("");
+
+                updateCount();
+
+            });
+
+            // Mark Completed
+            $("#taskList").on("click", ".taskText", function () {
+
+                $(this).toggleClass("completed");
+
+                updateCount();
+
+            });
+
+            // Delete Task
+            $("#taskList").on("click", ".delete", function () {
+
+                $(this).parent().remove();
+
+                updateCount();
+
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+Problem 4: Mini Expense Tracker using Client-Side Database (Level-2)
+Scenario
+Develop a client-side expense tracker where users can add, view, and delete expenses using a browser-supported database. 
+📌 Requirements
+1.	Fields:
+o	Expense Title
+o	Amount
+o	Date
+2.	Buttons:
+o	Add Expense
+o	View Expenses
+o	Delete Expense
+3.	Use:
+o	Client-side database (Web SQL or IndexedDB)
+4.	Execute SQL-like queries:
+
+Simulate SQL-like operations:
+CREATE TABLE → objectStore
+INSERT → add()
+SELECT → getAll()
+DELETE → delete()
+5.	Maintain transaction handling.
+6.	Display expense list dynamically.
+
+🛠️ Technical Constraints
+•	Must use:
+o	Client-side DB transactions
+o	SQL execution methods
+•	Must handle:
+o	Transaction errors
+o	Query errors
+•	No server/database allowed.
+•	Pure JavaScript + HTML.
+
+🎯 Learning Outcome
+You will be able to:
+•	Client-side database concepts
+•	Executing SQL queries in browser
+•	Managing transactions
+•	Advanced DOM rendering
+•	Persistent structured storage

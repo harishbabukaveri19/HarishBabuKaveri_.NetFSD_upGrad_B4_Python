@@ -1,0 +1,115 @@
+<!--JS_Day8_Hands_on_Problem_Statement4_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Product Search App</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 50px;
+            background-color: lightcyan;
+        }
+
+        input {
+            padding: 8px;
+            width: 250px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background: #f2f2f2;
+            margin: 5px;
+            padding: 10px;
+        }
+
+        li:hover {
+            background: #ddd;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Product Search</h2>
+
+    <input type="text" id="searchBox" placeholder="Search products...">
+
+    <ul id="productList"></ul>
+
+    <p id="noResult" style="display:none;">No Results Found</p>
+
+    <script>
+        const searchBox = document.getElementById("searchBox");
+        const productList = document.getElementById("productList");
+        const noResult = document.getElementById("noResult");
+
+        const products = [
+            "Laptop",
+            "Mobile Phone",
+            "Headphones",
+            "Keyboard",
+            "Mouse",
+            "Smart Watch",
+            "Tablet"
+        ];
+
+        const displayProducts = (items) => {
+
+            productList.innerHTML = "";
+
+            if (items.length === 0) {
+                noResult.style.display = "block";
+                return;
+            }
+
+            noResult.style.display = "none";
+
+            items.forEach(product => {
+
+                const li = document.createElement("li");
+                li.textContent = product;
+
+                productList.appendChild(li);
+
+            });
+
+        };
+
+
+        const filterProducts = () => {
+
+            const searchText = searchBox.value.toLowerCase();
+
+            const filtered = products.filter(product =>
+                product.toLowerCase().includes(searchText)
+            );
+
+            displayProducts(filtered);
+        };
+
+        searchBox.addEventListener("input", filterProducts);
+
+        productList.addEventListener("click", (event) => {
+
+            if (event.target.tagName === "LI") {
+                alert(`You selected: ${event.target.textContent}`);
+            }
+
+        });
+
+        displayProducts(products);
+    </script>
+
+</body>
+
+</html>

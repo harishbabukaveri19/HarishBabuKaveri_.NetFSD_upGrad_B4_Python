@@ -1,0 +1,118 @@
+<!--JS_Day8_Hands_on_Problem_Statement3_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic To-Do List</title>
+
+    <style>
+        body {
+            background-color:ivory;
+            font-family: Arial;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        input {
+            padding: 8px;
+            width: 200px;
+        }
+
+        button {
+            padding: 8px 12px;
+            margin-left: 5px;
+        }
+
+        ul {
+            margin-top: 20px;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+            padding: 10px;
+            margin: 5px;
+            background: #f2f2f2;
+        }
+
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+        .deleteBtn {
+            margin-left: 10px;
+            background: red;
+            color: white;
+            border: none;
+            padding: 5px 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>To-Do List</h2>
+
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <button id="addTaskBtn">Add Task</button>
+
+    <ul id="taskList"></ul>
+
+    <script>
+        const taskInput = document.getElementById("taskInput");
+        const addTaskBtn = document.getElementById("addTaskBtn");
+        const taskList = document.getElementById("taskList");
+
+        /* Add Task Function */
+        const addTask = () => {
+
+            const taskText = taskInput.value.trim();
+
+            if (taskText === "") {
+                alert("Please enter a task");
+                return;
+            }
+
+            const li = document.createElement("li");
+
+            li.innerHTML = `
+        ${taskText}
+        <button class="deleteBtn">Delete</button>
+    `;
+
+            taskList.appendChild(li);
+
+            taskInput.value = "";
+        };
+
+
+        /* Event for Add Button */
+        addTaskBtn.addEventListener("click", addTask);
+
+
+        /* Event Delegation for Complete & Delete */
+
+        taskList.addEventListener("click", (event) => {
+
+            const target = event.target;
+
+            // Delete task
+            if (target.classList.contains("deleteBtn")) {
+                target.parentElement.remove();
+            }
+
+            // Mark task completed
+            if (target.tagName === "LI") {
+                target.classList.toggle("completed");
+            }
+
+        });
+    </script>
+
+</body>
+
+</html>

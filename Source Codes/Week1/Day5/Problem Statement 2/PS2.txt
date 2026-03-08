@@ -1,0 +1,22 @@
+Problem 2: Simple Object-Based User Info Display (Level-1)
+Scenario
+A webpage needs to display basic user information stored inside a JavaScript object.
+📌 Requirements
+Create a JavaScript object user with properties:
+•	name
+•	age
+•	city
+Create a function displayUserInfo(userObj):
+•	Accepts the object as a parameter.
+•	Displays user details in separate <p> elements.
+A button click should trigger the function.
+
+🛠️ Technical Constraints
+•	Object properties must be accessed using dot notation.
+•	Function should not use global variables.
+•	DOM elements should be updated dynamically.
+🎯 Learning Outcome
+You will be able to:
+•	Understand JavaScript objects.
+•	Pass objects to functions.
+•	Display object data dynamically on a webpage.

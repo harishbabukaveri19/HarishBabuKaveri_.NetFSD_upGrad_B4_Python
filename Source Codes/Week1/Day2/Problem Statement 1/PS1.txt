@@ -1,0 +1,14 @@
+Problem 1 
+Assessment Goal: Validate understanding of links and form elements. 
+Hands-on Tasks: 
+Create two HTML pages and link them using navigation links 
+Add a navigation bar with Home and Contact links 
+Create a registration form with: 
+Name 
+Email 
+Password 
+Gender (radio buttons) 
+Course selection (dropdown) 
+Use required and placeholder attributes 
+Expected Outcome: 
+A multi-page website with working navigation and a basic form.

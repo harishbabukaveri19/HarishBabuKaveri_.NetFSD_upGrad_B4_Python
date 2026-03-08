@@ -1,0 +1,20 @@
+PROBLEM 2: Product Cart Summary (LEVEL-1)
+Scenario:
+Build a simple shopping cart summary system.
+
+📌 Requirements 
+- Store product objects (name, price, quantity) in an array.
+- Calculate total cart value.
+- Display formatted invoice using template literals.
+- Use arrow functions.
+- Export calculation function from a module.
+
+🛠️ Technical Constraints
+- Use map() and reduce().
+- Use ES6 modules (export/import).
+- No DOM manipulation required.
+
+🎯 Learning Outcome
+- Work with arrays of objects.
+- Understand modules.
+- Improve functional programming skills.

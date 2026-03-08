@@ -1,0 +1,135 @@
+<!--CSS_Day3_Hands_on_Problem_Statement5_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Dashboard Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", sans-serif;
+            min-height: 100vh;
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            background-color: #1e272e;
+            color: white;
+            padding: 20px;
+        }
+
+        .sidebar h2 {
+            margin-bottom: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+        }
+
+        .sidebar ul li {
+            margin: 12px 0;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .sidebar ul li a:hover {
+            color: #00cec9;
+        }
+
+        .main {
+            background-color: #f1f2f6;
+            padding: 25px;
+        }
+
+        .main h1 {
+            margin-bottom: 20px;
+        }
+
+        .card-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            flex: 1 1 30%;
+            min-width: 220px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            transform: translateY(-4px);
+        }
+
+        @media (max-width: 768px) {
+
+            .dashboard {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar {
+                text-align: center;
+            }
+
+            .card-container {
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <aside class="sidebar">
+            <h2>Admin Panel</h2>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#analytics">Analytics</a></li>
+                <li><a href="#users">Users</a></li>
+                <li><a href="#settings">Settings</a></li>
+            </ul>
+        </aside>
+
+        <section class="main">
+            <h1>Overview</h1>
+
+            <div class="card-container">
+                <div class="card">
+                    <h3>Visitors</h3>
+                    <p>3478</p>
+                </div>
+
+                <div class="card">
+                    <h3>Sales</h3>
+                    <p>12,300/-</p>
+                </div>
+
+                <div class="card">
+                    <h3>Orders</h3>
+                    <p>742</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

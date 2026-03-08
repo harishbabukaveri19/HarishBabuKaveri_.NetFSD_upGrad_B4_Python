@@ -1,0 +1,21 @@
+LEVEL – 2 (Problem 4): Mini Product Search App 
+ 
+Scenario:
+An e-commerce company needs a mini product search application that filters products dynamically as users type in the search box.
+ 
+📌 Requirements 
+• Display product list from a predefined array.
+• Filter products dynamically using input event.
+• Display “No Results Found” when applicable.
+ 
+🛠️ Technical Constraints
+• Must use DOM manipulation.
+• Event delegation required.
+• Code should follow modular structure.
+ 
+Expectations:
+• Real-time filtering.
+• Proper state management.
+ 
+🎯 Learning Outcome
+• State management basics.

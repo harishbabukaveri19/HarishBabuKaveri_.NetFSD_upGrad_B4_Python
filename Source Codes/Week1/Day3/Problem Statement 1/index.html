@@ -1,0 +1,50 @@
+<!--CSS_Day3_Hands_on_Problem_Statement1_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="form">
+	<h3> Registration Form </h3>
+
+    <div class="box">
+        <p>Please provide the required details below.</p>
+    </div>
+    <br>
+
+	<form>
+	<label> Name:</label>
+	<input type="text" placeholder="Type your Name" required>
+	<br><br>
+	<label> Email:</label>
+	<input type="email" placeholder="Type your Email Id" required>
+	<br><br>
+	<label> Password:</label>
+	<input type="password" placeholder="Type your Password" required>
+	<br><br>
+	<label> Gender:</label>
+	<input type="radio" name="Gender"> Male
+	<input type="radio" name="Gender"> Female
+	<br><br>
+	<label for="Courses"> Select Course:</label>
+	<input type="text" id="Courses" name="Courses" list="Course">
+	<datalist id="Course">
+        <option value="Python">
+		<option value="Java">
+		<option value="HTML">
+	</datalist>
+	<br><br>
+	<button class="submit" type="submit"> Submit</button>
+    <br><br>
+	</form>
+    </section>
+</body>
+</html>
+
+
+
+

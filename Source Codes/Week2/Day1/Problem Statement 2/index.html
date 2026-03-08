@@ -1,0 +1,108 @@
+<!--JS_Day6_Hands_on_Problem_Statement2_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <style>
+        body{
+            text-align: center;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+
+    Name:
+    <input type="text" id="name" onchange="validateName()">
+    <span id="nameMsg" style="color:red;"></span>
+    <br><br>
+
+    Email:
+    <input type="text" id="email" onchange="validateEmail()">
+    <span id="emailMsg" style="color:red;"></span>
+    <br><br>
+
+    Age:
+    <input type="number" id="age" onchange="validateAge()">
+    <span id="ageMsg" style="color:red;"></span>
+    <br><br>
+
+    <button onclick="submitForm()">Register</button>
+
+    <p id="successMsg" style="color:green;"></p>
+
+    <p id="WrongMsg" style="color:red;"></p>
+
+    <script>
+
+    function validateName() {
+        var name = document.getElementById("name").value;
+        if (name === "") {
+            document.getElementById("nameMsg").innerHTML = "Name cannot be empty";
+            return false;
+        } else {
+            document.getElementById("nameMsg").innerHTML = "";
+            return true;
+        }
+    }
+
+    function validateEmail() {
+        var email = document.getElementById("email").value;
+        if (email === "") {
+            document.getElementById("emailMsg").innerHTML = "Email cannot be empty";
+            return false;
+        } else if (email.indexOf("@") === -1) {
+            document.getElementById("emailMsg").innerHTML = "Email must contain @";
+            return false;
+        } else {
+            document.getElementById("emailMsg").innerHTML = "";
+            return true;
+        }
+    }
+
+    function validateAge() {
+        var age = document.getElementById("age").value;
+        if (age === "") {
+            document.getElementById("ageMsg").innerHTML = "Age cannot be empty";
+            return false;
+        } else if (age <= 18) {
+            document.getElementById("ageMsg").innerHTML = "Age must be greater than 18";
+            return false;
+        } else {
+            document.getElementById("ageMsg").innerHTML = "";
+            return true;
+        }
+    }
+
+    function submitForm() {
+
+        var isNameValid = validateName();
+        var isEmailValid = validateEmail();
+        var isAgeValid = validateAge();
+
+        if (isNameValid && isEmailValid && isAgeValid) {
+
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var age = document.getElementById("age").value;
+
+            sessionStorage.setItem("userName", name);
+            sessionStorage.setItem("userEmail", email);
+            sessionStorage.setItem("userAge", age);
+
+            document.getElementById("successMsg").innerHTML = "Registration Successful!";
+            document.getElementById("WrongMsg").innerHTML = "";
+
+        } else {
+            document.getElementById("WrongMsg").innerHTML = "Please enter the correct details before submitting.";
+            document.getElementById("successMsg").innerHTML = "";
+        }
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+LEVEL – 2 (Problem 3): Dynamic To-Do List 
+Scenario:
+A productivity application requires an interactive To-Do list where users can add, delete, and mark tasks as complete without refreshing the page.
+📌 Requirements
+• Add new tasks dynamically.
+• Delete tasks on button click.
+• Mark tasks as completed.
+• Use event delegation for better performance.
+ 
+🛠️ Technical Constraints
+• Must use DOM manipulation.
+• Event delegation required.
+• Code should follow modular structure.
+ 
+Expectations:
+• Fully functional interactive UI.
+• Organized and reusable functions.
+ 
+🎯 Learning Outcome
+• Advanced DOM event handling.
+• Event delegation concept.
+• Understanding role of libraries in speeding up development.

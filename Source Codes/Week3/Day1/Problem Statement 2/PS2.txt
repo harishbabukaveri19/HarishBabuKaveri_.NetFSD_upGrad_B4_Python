@@ -1,0 +1,24 @@
+Problem 2 (Level-1): Dynamic FAQ Toggle Section
+Scenario:
+A website contains a Frequently Asked Questions (FAQ) section. The company wants answers to appear and disappear when users click on the questions.
+Requirements
+• Create at least 5 FAQ questions with hidden answers.
+• Use jQuery click() event to toggle answers.
+• Apply slideToggle() or show()/hide() methods.
+• Highlight the selected question using CSS class manipulation.
+ 
+️ Technical Constraints
+• Use only jQuery methods for DOM manipulation.
+• Use class selectors and ID selectors appropriately.
+• Avoid inline JavaScript.
+ 
+Expectations:
+• Smooth UI interaction.
+• Proper use of jQuery effects.
+• Organized HTML structure.
+ 
+Learning Outcome
+• Implement event handling using jQuery.
+• Use basic jQuery effects.
+• Practice DOM traversal and manipulation.
+

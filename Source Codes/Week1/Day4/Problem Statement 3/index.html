@@ -1,0 +1,48 @@
+<!--JS_Day4_Hands_on_Problem_Statement3_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Discount Calculator</title>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        body{
+            background-color: lightcyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Discount Calculator</h1>
+    <script>
+        let Purchase_Amount = 5200;
+        let Discount_Price = 0;
+        let Final_Price = 0;
+
+        if(Purchase_Amount >= 5000){
+            Discount_Price = Purchase_Amount * 0.2;
+        }
+
+        else if(Purchase_Amount >= 3000){
+            Discount_Price = Purchase_Amount * 0.1;
+        }
+
+        else{
+            Discount_Price = 0
+        }
+
+        Final_Price = Purchase_Amount - Discount_Price;
+        console.log("Purchase Amount: " +Purchase_Amount+ "/-");
+        console.log("Discount Price: " +Discount_Price+ "/-");
+        console.log("Final Price: " +Final_Price+ "/-");
+        alert("Purchase Amount: " +Purchase_Amount+ "/-");
+        alert("Discount Price: " +Discount_Price+ "/-");
+        alert("Final Price: " +Final_Price+ "/-");
+    </script>
+</body>
+</html>
+

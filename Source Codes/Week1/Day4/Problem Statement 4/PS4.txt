@@ -1,0 +1,24 @@
+Problem 4: Traffic Signal Simulator (Level-2)
+Scenario
+A traffic control system needs a JavaScript program that 
+ displays instructions based on traffic signal color.
+📌 Requirements
+•	Store signal color in a variable ("red", "yellow", "green")
+•	Use a switch statement to display:
+•	Red → Stop
+•	Yellow → Get Ready
+•	Green → Go
+Handle invalid signal input gracefully
+
+🛠️ Technical Constraints
+•	Must use switch–case
+•	Use string data types
+•	Use console.log() for output
+•	No if–else allowed
+
+🎯 Learning Outcome
+Learners should be able to:
+•	Use switch statements effectively
+•	Compare string values
+•	Handle multiple conditions cleanly
+•	Understand control flow alternatives

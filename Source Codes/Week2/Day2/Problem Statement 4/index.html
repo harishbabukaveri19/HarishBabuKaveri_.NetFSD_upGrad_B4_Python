@@ -1,0 +1,133 @@
+<!--JS_Day7_Hands_on_Problem_Statement4_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+<style>
+body{
+    font-family: Arial;
+    text-align: center;
+    margin-top: 50px;
+    background-color: azure;
+}
+
+input{
+    padding:8px;
+    width:200px;
+}
+
+button{
+    padding:8px 12px;
+    margin-left:5px;
+}
+
+li{
+    margin:10px;
+    list-style:none;
+}
+
+.deleteBtn{
+    margin-left:10px;
+    background:red;
+    color:white;
+    border:none;
+    padding:5px 8px;
+    cursor:pointer;
+}        
+</style>
+</head>
+<body>
+
+<h2>Task Manager</h2>
+
+<input type="text" id="taskInput" placeholder="Enter task">
+<button onclick="addTaskAsync()">Add Task</button>
+
+<ul id="taskList"></ul>
+
+<script>
+let tasks = [];
+
+const addTaskCallback = (task, callback) => {
+    setTimeout(() => {
+        tasks.push(task);
+        callback();
+    },1000);
+};
+
+const addTaskPromise = (task) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            tasks.push(task);
+            resolve();
+        },1000);
+    });
+};
+
+const deleteTaskPromise = (index) => {
+    return new Promise((resolve)=>{
+        setTimeout(()=>{
+            tasks.splice(index,1);
+            resolve();
+        },1000);
+    });
+};
+
+const listTasksPromise = () => {
+    return new Promise((resolve)=>{
+        setTimeout(()=>{
+            resolve(tasks);
+        },1000);
+    });
+};
+
+const addTaskAsync = async () => {
+
+    const input = document.getElementById("taskInput");
+    const task = input.value;
+
+    if(task === ""){
+        alert("Enter a task");
+        return;
+    }
+
+    await addTaskPromise(task);
+
+    input.value="";
+    displayTasks();
+};
+
+
+const deleteTaskAsync = async (index) => {
+
+    await deleteTaskPromise(index);
+
+    displayTasks();
+};
+
+const displayTasks = async () => {
+
+    const taskList = document.getElementById("taskList");
+
+    const tasks = await listTasksPromise();
+
+    taskList.innerHTML="";
+
+    tasks.forEach((task,index)=>{
+
+        taskList.innerHTML += `
+        <li>
+            ${task}
+            <button class="deleteBtn" onclick="deleteTaskAsync(${index})">
+            Delete
+            </button>
+        </li>
+        `;
+    });
+
+};
+</script>
+</body>
+</html>

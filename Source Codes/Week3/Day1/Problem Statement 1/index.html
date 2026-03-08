@@ -1,0 +1,141 @@
+<!--jQuery_Day11_Hands_on_Problem_Statement1_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Feedback Form</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:#007bff;
+        }
+
+        h2{
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background:white;
+            border-radius: 8px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .message {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .error {
+            text-align: center;
+            color: red;
+        }
+
+        .success {
+            text-align: center;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Feedback Form</h2>
+
+    <form id="feedbackForm">
+        <label>Name</label>
+        <input type="text" id="name">
+
+        <label>Email</label>
+        <input type="email" id="email">
+
+        <label>Course Rating</label>
+        <select id="rating">
+            <option value="">Select Rating</option>
+            <option>5 - Excellent</option>
+            <option>4 - Good</option>
+            <option>3 - Average</option>
+            <option>2 - Poor</option>
+            <option>1 - Very Poor</option>
+        </select>
+
+        <label>Comments</label>
+        <textarea id="comments" rows="3" cols="3"></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <div id="responseMessage" class="message"></div>
+</div>
+
+<script>
+    $(document).ready(function () {
+
+        $("#feedbackForm").submit(function (event) {
+            event.preventDefault();
+
+            var name = $("#name").val().trim();
+            var email = $("#email").val().trim();
+
+            if (name === "" && email === "") {
+                $("#responseMessage")
+                    .removeClass("success")
+                    .addClass("error")
+                    .text("Please Enter Your Name and Email.");
+            } else if (name === "") {
+                $("#responseMessage")
+                    .removeClass("success")
+                    .addClass("error")
+                    .text("Please Enter Your Name.");
+            } else if (email === "") {
+                $("#responseMessage")
+                    .removeClass("success")
+                    .addClass("error")
+                    .text("Please Enter Your Email.");
+            } else {
+                $("#responseMessage")
+                    .removeClass("error")
+                    .addClass("success")
+                    .text("Thank You, " + name + "! Your feedback has been submitted successfully.");
+
+                $("#feedbackForm")[0].reset();
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

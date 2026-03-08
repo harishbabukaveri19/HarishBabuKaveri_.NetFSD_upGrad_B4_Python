@@ -1,0 +1,22 @@
+LEVEL – 1 (Problem 1): Interactive Feedback Button
+
+Scenario:
+A startup company wants a simple interactive webpage where users can click a button to submit feedback and instantly see a confirmation message without refreshing the page.
+ 
+Requirements
+• Create a webpage with a “Submit Feedback” button.
+• When clicked, display a confirmation message dynamically.
+• Use JavaScript event listeners to handle the click event.
+ 
+️ Technical Constraints
+• Use plain HTML, CSS, and JavaScript.
+• Event handling must use addEventListener().
+• No external frameworks allowed.
+ 
+Expectations:
+• Proper DOM manipulation.
+• Clean and readable code.
+ 
+Learning Outcome
+• Understand browser event handling.
+• Learn DOM manipulation basics.

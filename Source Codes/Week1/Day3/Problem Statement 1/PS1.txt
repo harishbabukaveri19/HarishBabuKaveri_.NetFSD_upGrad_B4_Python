@@ -1,0 +1,10 @@
+Problem 1 
+Assessment Goal: Check ability to apply styling and understand selectors and box model. 
+Hands-on Tasks: 
+Create an external CSS file and link it to HTML 
+Apply different text styles to headings and paragraphs 
+Add background color and borders to a section 
+Demonstrate margin and padding on a div 
+Style the form created on Day 2 
+Expected Outcome: 
+A visually styled webpage using external CSS and proper selectors.

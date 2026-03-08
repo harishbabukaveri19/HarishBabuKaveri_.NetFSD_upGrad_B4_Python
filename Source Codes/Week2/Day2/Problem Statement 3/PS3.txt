@@ -1,0 +1,22 @@
+PROBLEM 3: Weather Data Fetcher (LEVEL-2)
+
+Scenario:
+Create an application that fetches weather data asynchronously.
+
+📌 Requirements
+- Fetch data from a public API using fetch().
+- Implement version using Promises.
+- Implement version using async/await.
+- Handle errors properly.
+- Display formatted weather report.
+
+🛠️ Technical Constraints
+- Use async/await.
+- Use template literals.
+- Use arrow functions.
+- Must include proper error handling using try/catch.
+
+🎯 Learning Outcome
+- Understand Promises and async/await.
+- Handle asynchronous operations.
+- Improve API handling skills.

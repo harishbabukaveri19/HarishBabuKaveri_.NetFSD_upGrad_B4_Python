@@ -1,0 +1,135 @@
+<!--JS_Day7_Hands_on_Problem_Statement3_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather Fetcher</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background:bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #4caf50;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#weatherResult {
+    margin-top: 20px;
+    text-align: left;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Weather Forecast App</h2>
+
+    <input type="text" id="cityInput" placeholder="Enter city name">
+    <button id="fetchBtn">Fetch Data</button>
+
+    <div id="weatherResult"></div>
+</div>
+
+<script>
+
+const cityInput = document.getElementById("cityInput");
+const resultDiv = document.getElementById("weatherResult");
+
+const displayWeather = (data) => {
+    resultDiv.innerHTML = `
+        <h3>${data.location.name}, ${data.location.country}</h3>
+        <p><strong>🌡 Temperature:</strong> ${data.current.temp_c}°C</p>
+        <p><strong>🌥 Condition:</strong> ${data.current.condition.text}</p>
+        <p><strong>💧 Humidity:</strong> ${data.current.humidity}%</p>
+        <p><strong>🌬 Wind:</strong> ${data.current.wind_kph} kph</p>
+    `;
+};
+
+const fetchWeatherWithPromises = (searchCity) => {
+
+    const url = `https://api.weatherapi.com/v1/forecast.json?key=f567c39b04ac410dbed174730260403&q=${searchCity}&days=7&aqi=yes&alerts=no`;
+
+    return fetch(url)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("City Not Found or API Error");
+            }
+            return response.json();
+        });
+};
+
+const fetchWeatherAsync = async (searchCity) => {
+
+    const url = `https://api.weatherapi.com/v1/forecast.json?key=f567c39b04ac410dbed174730260403&q=${searchCity}&days=7&aqi=yes&alerts=no`;
+
+    try {
+
+        const response = await fetch(url);
+
+        if (!response.ok) {
+            throw new Error("City Not Found or API Error");
+        }
+
+        const data = await response.json();
+
+        displayWeather(data);
+
+    } catch (error) {
+
+        resultDiv.innerHTML = `Error: ${error.message}`;
+
+    }
+};
+
+document.getElementById("fetchBtn").addEventListener("click", () => {
+
+    const searchCity = cityInput.value.trim();
+
+    if (!searchCity) {
+        resultDiv.innerHTML = "Please Enter a City Name.";
+        return;
+    }
+
+    fetchWeatherAsync(searchCity);
+});
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!--HTML_Day2_Hands_on_Problem_Statement5_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Enrollment Form</title>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to HBK Institute</h1>
+    <h2>This is the Online Course Enrollment Form</h2>
+    <p>Fill this form to enroll your course.</p>
+</header>
+
+<main>
+    <section>
+        <h2>Enrollment Form</h2>
+
+        <form>
+            <label>Full Name:</label>
+            <input type="text" placeholder="Enter your Full Name" required>
+            <br><br>
+
+            <label>Email Address:</label>
+            <input type="email" placeholder="Enter your Email Id" required>
+            <br><br>
+
+            <label for="course">Select Course:</label>
+            <input list="courses" id="course" name="course" placeholder="Select your Course" required>
+
+            <datalist id="courses">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JavaScript">
+                <option value="Java">
+                <option value="Python">
+            </datalist>
+            <br><br>
+
+            <label>Age:</label>
+            <input type="number" min="16" max="60" required>
+            <br><br>
+
+            <label>Skill Level (1 = Beginner, 10 = Advanced):</label>
+            <input type="range" min="1" max="10">
+            <br><br>
+
+            <label>Your Skill Indicator:</label>
+            <meter min="1" max="10" value="4"></meter>
+            <br><br>
+
+            <label>Enrollment Completion:</label>
+            <progress min="10" max="100" value="70"></progress>
+            <br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <h3>Contact Us</h3>
+    <p>Email: XYZ@abc.com</p>
+    <p>Phone: +91 XXXXX XXXXX</p>
+</footer>
+</body>
+</html>
+
+

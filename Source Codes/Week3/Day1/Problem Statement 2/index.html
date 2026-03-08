@@ -1,0 +1,125 @@
+<!--jQuery_Day11_Hands_on_Problem_Statement2_HarishBabuKaveri-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic FAQ Section</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #78a8f06c;
+            padding: 40px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .faq-container {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .faq-item {
+            margin-bottom: 10px;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .question {
+            background: #2490efe0;
+            color: white;
+            padding: 15px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .question:hover {
+            background:rgba(68, 196, 64, 0.9);
+        }
+
+        .answer {
+            background: white;
+            padding: 15px;
+            display: none; /* Hidden by default */
+            border: 1px solid #ddd;
+        }
+
+        /* Highlight active question */
+        .active {
+            background: #1abc9c !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-container">
+
+        <div class="faq-item">
+            <div class="question">1. What is jQuery?</div>
+            <div class="answer">
+                jQuery is a fast, lightweight JavaScript library used for DOM manipulation and event handling.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">2. What is slideToggle()?</div>
+            <div class="answer">
+                slideToggle() is a jQuery method that smoothly shows or hides elements with sliding animation.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">3. What is DOM manipulation?</div>
+            <div class="answer">
+                DOM manipulation means modifying HTML elements dynamically using JavaScript or jQuery.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">4. What is event handling?</div>
+            <div class="answer">
+                Event handling allows you to run functions when a user performs actions like clicking or typing.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question">5. Why use jQuery effects?</div>
+            <div class="answer">
+                jQuery effects make UI interactions smooth and visually appealing with minimal code.
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        $(document).ready(function () {
+
+            $(".question").click(function () {
+
+                // Toggle current answer
+                $(this).next(".answer").slideToggle(300);
+
+                // Toggle active class
+                $(this).toggleClass("active");
+
+                // Optional: Close other answers
+                $(".question").not(this).removeClass("active");
+                $(".question").not(this).next(".answer").slideUp(300);
+            });
+
+        });
+    </script>
+
+</body>
+</html>
