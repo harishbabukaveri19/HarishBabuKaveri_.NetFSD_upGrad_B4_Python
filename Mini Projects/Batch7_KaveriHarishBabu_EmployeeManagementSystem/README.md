@@ -18,7 +18,7 @@ A modern, fully responsive Single Page Application (SPA) for managing workforce 
 
 | Dashboard View | Employee Directory |
 |:---:|:---:|
-| <img src="screenshots/dashboard.png" width="400" alt="Dashboard View"> | <img src="screenshots/employees.png" width="400" alt="Employees View"> |
+| <img src="screenshots/output3.png" width="400" alt="Dashboard View"> | <img src="screenshots/output4.png" width="400" alt="Employees View"> |
 
 ---
 
