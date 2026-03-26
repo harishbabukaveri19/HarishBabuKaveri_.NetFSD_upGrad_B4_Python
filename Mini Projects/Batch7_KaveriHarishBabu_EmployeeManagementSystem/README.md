@@ -14,11 +14,11 @@ A modern, fully responsive Single Page Application (SPA) for managing workforce 
 
 ## 📸 Screenshots
 
-*(Replace these placeholder links with your actual image paths once uploaded)*
+
 
 | Dashboard View | Employee Directory |
 |:---:|:---:|
-| <img src="screenshots/output3.png" width="400" alt="Dashboard View"> | <img src="screenshots/output4.png" width="400" alt="Employees View"> |
+| <img src="Screenshots/Output3.png" width="400" alt="Dashboard View"> | <img src="Screenshots/Output4.png" width="400" alt="Employees View"> |
 
 ---
 
