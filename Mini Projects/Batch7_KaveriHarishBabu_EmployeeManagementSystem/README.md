@@ -8,7 +8,7 @@
 
 A modern, fully responsive Single Page Application (SPA) for managing workforce data. Built with a focus on clean UI/UX, this dashboard allows administrators to efficiently track, add, edit, and analyze employee records.
 
-🚀 **[View Live Deployment Here]([https://employee-management-system-harishbabu.netlify.app/])**
+🚀 **[View Live Deployment Here] ([https://employee-management-system-harishbabu.netlify.app/])**
 
 ---
 
