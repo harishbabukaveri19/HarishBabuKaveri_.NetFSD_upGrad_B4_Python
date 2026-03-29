@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|d:\\visual studio data\\upgrad_week6_day3\\patientdetails\\views\\patient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|solutionrelative:views\\patient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|d:\\visual studio data\\upgrad_week6_day3\\patientdetails\\views\\patient\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|solutionrelative:views\\patient\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|d:\\visual studio data\\upgrad_week6_day3\\patientdetails\\views\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|solutionrelative:views\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|d:\\visual studio data\\upgrad_week6_day3\\patientdetails\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|d:\\visual studio data\\upgrad_week6_day3\\patientdetails\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|d:\\visual studio data\\upgrad_week6_day3\\patientdetails\\views\\patient\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|solutionrelative:views\\patient\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|d:\\visual studio data\\upgrad_week6_day3\\patientdetails\\views\\patient\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|solutionrelative:views\\patient\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|d:\\visual studio data\\upgrad_week6_day3\\patientdetails\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|d:\\visual studio data\\upgrad_week6_day3\\patientdetails\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB61A096-7B3F-5F4A-C788-B7D1CEF490CA}|PatientDetails.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T13:24:39.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T13:00:52.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Views\\Patient\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\Delete.cshtml",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Views\\Patient\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Patient\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T12:57:34.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Views\\Patient\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\Edit.cshtml",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Views\\Patient\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Patient\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T12:56:55.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Views\\Patient\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\Create.cshtml",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Views\\Patient\\Create.cshtml",
+              "RelativeToolTip": "Views\\Patient\\Create.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAewBQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T12:56:15.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Views\\Patient\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\Details.cshtml",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Views\\Patient\\Details.cshtml",
+              "RelativeToolTip": "Views\\Patient\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T12:55:37.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Views\\Patient\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\Index.cshtml",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Views\\Patient\\Index.cshtml",
+              "RelativeToolTip": "Views\\Patient\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T12:54:42.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Controllers\\PatientController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAADwv2MAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T12:51:43.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Models\\Patient.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\PatientDetails\\Models\\Patient.cs",
+              "RelativeToolTip": "Models\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T12:50:39.443Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

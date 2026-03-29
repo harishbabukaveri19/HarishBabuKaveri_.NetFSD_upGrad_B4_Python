@@ -1,0 +1,50 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace upGrad_Week4_Day2
+{
+    internal class Math_Operations
+    {
+        public int Add(int a, int b)
+        {
+            return a + b;
+        }
+        public int Subtract(int a, int b)
+        {
+            return a - b;
+        }
+        public int Multiply(int a, int b)
+        {
+            return a * b;
+        }
+        public double Divide(int a, int b)
+        {
+            if (b == 0)
+            {
+                throw new DivideByZeroException("Cannot divide by zero.");
+            }
+            return (double)a / b;
+        }
+
+        static void Main(string[] args)
+        {
+            Math_Operations math = new Math_Operations();
+            Console.WriteLine("Enter first number:");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter second number:");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Addition: " + math.Add(num1, num2));
+            Console.WriteLine("Subtraction: " + math.Subtract(num1, num2));
+            Console.WriteLine("Multiplication: " + math.Multiply(num1, num2));
+            try
+            {
+                Console.WriteLine("Division: " + math.Divide(num1, num2));
+            }
+            catch (DivideByZeroException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+    }
+}

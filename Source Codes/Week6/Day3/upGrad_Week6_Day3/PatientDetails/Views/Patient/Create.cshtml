@@ -1,0 +1,21 @@
+﻿@model PatientDetails.Models.Patient
+
+<h2>Create Patient</h2>
+
+<form asp-action="Create" method="post">
+
+    <input asp-for="Name" class="form-control" placeholder="Name" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+
+    <input asp-for="Age" class="form-control mt-2" placeholder="Age" />
+    <span asp-validation-for="Age" class="text-danger"></span>
+
+    <input asp-for="Disease" class="form-control mt-2" placeholder="Disease" />
+    <span asp-validation-for="Disease" class="text-danger"></span>
+
+    <br />
+
+    <button class="btn btn-success mt-2">Save</button>
+    <a class="btn btn-secondary mt-2" asp-action="Index">Back</a>
+
+</form>

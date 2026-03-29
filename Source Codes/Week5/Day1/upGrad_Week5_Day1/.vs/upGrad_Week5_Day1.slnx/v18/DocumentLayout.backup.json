@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Visual Studio Data\\upGrad_Week5_Day1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D8CE66-A74F-764F-BED5-DE0DF8C30631}|upGrad_Week5_Day1.csproj|d:\\visual studio data\\upgrad_week5_day1\\problemstatement15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D8CE66-A74F-764F-BED5-DE0DF8C30631}|upGrad_Week5_Day1.csproj|solutionrelative:problemstatement15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D8CE66-A74F-764F-BED5-DE0DF8C30631}|upGrad_Week5_Day1.csproj|d:\\visual studio data\\upgrad_week5_day1\\problemstatement14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D8CE66-A74F-764F-BED5-DE0DF8C30631}|upGrad_Week5_Day1.csproj|solutionrelative:problemstatement14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D8CE66-A74F-764F-BED5-DE0DF8C30631}|upGrad_Week5_Day1.csproj|d:\\visual studio data\\upgrad_week5_day1\\problemstatement13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D8CE66-A74F-764F-BED5-DE0DF8C30631}|upGrad_Week5_Day1.csproj|solutionrelative:problemstatement13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D8CE66-A74F-764F-BED5-DE0DF8C30631}|upGrad_Week5_Day1.csproj|d:\\visual studio data\\upgrad_week5_day1\\problemstatement12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D8CE66-A74F-764F-BED5-DE0DF8C30631}|upGrad_Week5_Day1.csproj|solutionrelative:problemstatement12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProblemStatement15.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week5_Day1\\ProblemStatement15.cs",
+              "RelativeDocumentMoniker": "ProblemStatement15.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week5_Day1\\ProblemStatement15.cs",
+              "RelativeToolTip": "ProblemStatement15.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T17:47:34.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProblemStatement14.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week5_Day1\\ProblemStatement14.cs",
+              "RelativeDocumentMoniker": "ProblemStatement14.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week5_Day1\\ProblemStatement14.cs",
+              "RelativeToolTip": "ProblemStatement14.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T17:43:34.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProblemStatement13.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week5_Day1\\ProblemStatement13.cs",
+              "RelativeDocumentMoniker": "ProblemStatement13.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week5_Day1\\ProblemStatement13.cs",
+              "RelativeToolTip": "ProblemStatement13.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T17:40:23.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProblemStatement12.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week5_Day1\\ProblemStatement12.cs",
+              "RelativeDocumentMoniker": "ProblemStatement12.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week5_Day1\\ProblemStatement12.cs",
+              "RelativeToolTip": "ProblemStatement12.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T17:32:39.615Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

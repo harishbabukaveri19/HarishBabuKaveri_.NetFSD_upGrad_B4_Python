@@ -1,0 +1,25 @@
+﻿@model Contact_Management_Web_Application.Models.ContactInfo
+
+<h2>Edit Contact</h2>
+
+<form asp-action="Edit" method="post">
+
+    <input type="hidden" asp-for="ContactId" />
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <input asp-for="FirstName" class="form-control" />
+    <input asp-for="LastName" class="form-control mt-2" />
+    <input asp-for="CompanyName" class="form-control mt-2" />
+    <input asp-for="EmailId" class="form-control mt-2" />
+    <input asp-for="MobileNo" class="form-control mt-2" />
+    <input asp-for="Designation" class="form-control mt-2" />
+
+    <button class="btn btn-warning mt-3 text-white">Update</button>
+    <a class="btn btn-secondary mt-3" asp-action="ShowContacts">Back</a>
+
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

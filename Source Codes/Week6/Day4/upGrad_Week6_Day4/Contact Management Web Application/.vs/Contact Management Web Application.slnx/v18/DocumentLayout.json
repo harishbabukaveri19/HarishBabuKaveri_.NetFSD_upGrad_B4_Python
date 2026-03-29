@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|d:\\visual studio data\\upgrad_week6_day3\\contact management web application\\views\\contact\\showcontacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|solutionrelative:views\\contact\\showcontacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|d:\\visual studio data\\upgrad_week6_day3\\contact management web application\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|solutionrelative:controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|d:\\visual studio data\\upgrad_week6_day3\\contact management web application\\views\\contact\\addcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|solutionrelative:views\\contact\\addcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|d:\\visual studio data\\upgrad_week6_day3\\contact management web application\\models\\contactinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|solutionrelative:models\\contactinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|d:\\visual studio data\\upgrad_week6_day3\\contact management web application\\views\\contact\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|solutionrelative:views\\contact\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|d:\\visual studio data\\upgrad_week6_day3\\contact management web application\\views\\contact\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|solutionrelative:views\\contact\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|d:\\visual studio data\\upgrad_week6_day3\\contact management web application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|d:\\visual studio data\\upgrad_week6_day3\\contact management web application\\views\\contact\\getcontactbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|solutionrelative:views\\contact\\getcontactbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|d:\\visual studio data\\upgrad_week6_day3\\contact management web application\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40C4E6B6-C184-43FF-99CE-610D61F93BAF}|Contact Management Web Application.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Views\\Contact\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contact\\Delete.cshtml",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Views\\Contact\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Contact\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T14:48:57.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Views\\Contact\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contact\\Edit.cshtml",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Views\\Contact\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Contact\\Edit.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T14:48:32.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T14:06:03.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetContactById.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Views\\Contact\\GetContactById.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contact\\GetContactById.cshtml",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Views\\Contact\\GetContactById.cshtml",
+              "RelativeToolTip": "Views\\Contact\\GetContactById.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T14:02:08.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddContact.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Views\\Contact\\AddContact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contact\\AddContact.cshtml",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Views\\Contact\\AddContact.cshtml",
+              "RelativeToolTip": "Views\\Contact\\AddContact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T14:00:57.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShowContacts.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Views\\Contact\\ShowContacts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contact\\ShowContacts.cshtml",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Views\\Contact\\ShowContacts.cshtml",
+              "RelativeToolTip": "Views\\Contact\\ShowContacts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T13:58:15.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-29T14:06:50.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactController.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAACYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T13:49:23.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactInfo.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Models\\ContactInfo.cs",
+              "RelativeDocumentMoniker": "Models\\ContactInfo.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day3\\Contact Management Web Application\\Models\\ContactInfo.cs",
+              "RelativeToolTip": "Models\\ContactInfo.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T13:48:06.721Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

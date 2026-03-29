@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>upGrad_Week5_Day2</id>
+    <version>1.0.0</version>
+    <authors>upGrad_Week5_Day2</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net10.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Visual Studio Data\upGrad_Week5_Day2\bin\Debug\net10.0\upGrad_Week5_Day2.runtimeconfig.json" target="lib\net10.0\upGrad_Week5_Day2.runtimeconfig.json" />
+    <file src="D:\Visual Studio Data\upGrad_Week5_Day2\bin\Debug\net10.0\upGrad_Week5_Day2.dll" target="lib\net10.0\upGrad_Week5_Day2.dll" />
+  </files>
+</package>

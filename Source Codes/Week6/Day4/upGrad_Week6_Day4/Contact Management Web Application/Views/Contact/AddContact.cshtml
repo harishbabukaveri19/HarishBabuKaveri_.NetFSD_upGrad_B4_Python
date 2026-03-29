@@ -1,0 +1,32 @@
+﻿@model Contact_Management_Web_Application.Models.ContactInfo
+
+<h2>Add Contact</h2>
+
+<form asp-action="AddContact" method="post">
+
+    <input asp-for="FirstName" class="form-control" placeholder="First Name" />
+    <span asp-validation-for="FirstName" class="text-danger"></span>
+
+    <input asp-for="LastName" class="form-control mt-2" placeholder="Last Name" />
+    <span asp-validation-for="LastName" class="text-danger"></span>
+
+    <input asp-for="CompanyName" class="form-control mt-2" placeholder="Company" />
+    <span asp-validation-for="CompanyName" class="text-danger"></span>
+
+    <input asp-for="EmailId" class="form-control mt-2" placeholder="Email" />
+    <span asp-validation-for="EmailId" class="text-danger"></span>
+
+    <input asp-for="MobileNo" class="form-control mt-2" placeholder="Mobile" />
+    <span asp-validation-for="MobileNo" class="text-danger"></span>
+
+    <input asp-for="Designation" class="form-control mt-2" placeholder="Designation" />
+    <span asp-validation-for="Designation" class="text-danger"></span>
+    <br />
+    <button class="btn btn-success mt-3">Save</button>
+    <a class="btn btn-secondary mt-3" asp-action="ShowContacts">Back</a>
+
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

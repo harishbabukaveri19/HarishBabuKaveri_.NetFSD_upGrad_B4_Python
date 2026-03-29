@@ -1,0 +1,14 @@
+D:\Visual Studio Data\upGrad_Week4_Day4\bin\Debug\net10.0\upGrad_Week4_Day4.exe
+D:\Visual Studio Data\upGrad_Week4_Day4\bin\Debug\net10.0\upGrad_Week4_Day4.deps.json
+D:\Visual Studio Data\upGrad_Week4_Day4\bin\Debug\net10.0\upGrad_Week4_Day4.runtimeconfig.json
+D:\Visual Studio Data\upGrad_Week4_Day4\bin\Debug\net10.0\upGrad_Week4_Day4.dll
+D:\Visual Studio Data\upGrad_Week4_Day4\bin\Debug\net10.0\upGrad_Week4_Day4.pdb
+D:\Visual Studio Data\upGrad_Week4_Day4\obj\Debug\net10.0\upGrad_Week4_Day4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio Data\upGrad_Week4_Day4\obj\Debug\net10.0\upGrad_Week4_Day4.AssemblyInfoInputs.cache
+D:\Visual Studio Data\upGrad_Week4_Day4\obj\Debug\net10.0\upGrad_Week4_Day4.AssemblyInfo.cs
+D:\Visual Studio Data\upGrad_Week4_Day4\obj\Debug\net10.0\upGrad_Week4_Day4.csproj.CoreCompileInputs.cache
+D:\Visual Studio Data\upGrad_Week4_Day4\obj\Debug\net10.0\upGrad_Week4_Day4.dll
+D:\Visual Studio Data\upGrad_Week4_Day4\obj\Debug\net10.0\refint\upGrad_Week4_Day4.dll
+D:\Visual Studio Data\upGrad_Week4_Day4\obj\Debug\net10.0\upGrad_Week4_Day4.pdb
+D:\Visual Studio Data\upGrad_Week4_Day4\obj\Debug\net10.0\upGrad_Week4_Day4.genruntimeconfig.cache
+D:\Visual Studio Data\upGrad_Week4_Day4\obj\Debug\net10.0\ref\upGrad_Week4_Day4.dll

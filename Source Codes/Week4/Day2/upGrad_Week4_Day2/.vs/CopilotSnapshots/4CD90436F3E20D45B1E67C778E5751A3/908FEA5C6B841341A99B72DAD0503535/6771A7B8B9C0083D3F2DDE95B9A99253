@@ -1,0 +1,40 @@
+﻿/* write a Boolean method find the age is above or equal to 18 to apply for driving licence. */
+
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace upGrad_Week4_Day2
+{
+    public static bool IsEligible(int age)
+    {
+        if (age >= 18)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+
+        }
+    }
+    internal class Driving_Licence
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter your age:");
+            int age = Convert.ToInt32(Console.ReadLine());
+
+            bool eligible = IsEligible(age);
+
+            if (eligible)
+            {
+                Console.WriteLine("You are eligible to apply for a driving licence.");
+            }
+            else
+            {
+                Console.WriteLine("You are not eligible to apply for a driving licence.");
+            }
+        }
+    }
+}

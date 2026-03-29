@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Visual Studio Data\\upGrad_Week4_Day1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4C06C0-6E3C-89CB-F8B8-03E5E33727E3}|upGrad_Week4_Day1.csproj|d:\\visual studio data\\upgrad_week4_day1\\number_analysis_using_loops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F4C06C0-6E3C-89CB-F8B8-03E5E33727E3}|upGrad_Week4_Day1.csproj|solutionrelative:number_analysis_using_loops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4C06C0-6E3C-89CB-F8B8-03E5E33727E3}|upGrad_Week4_Day1.csproj|d:\\visual studio data\\upgrad_week4_day1\\employee_bonus_calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F4C06C0-6E3C-89CB-F8B8-03E5E33727E3}|upGrad_Week4_Day1.csproj|solutionrelative:employee_bonus_calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4C06C0-6E3C-89CB-F8B8-03E5E33727E3}|upGrad_Week4_Day1.csproj|d:\\visual studio data\\upgrad_week4_day1\\student_grade_evaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F4C06C0-6E3C-89CB-F8B8-03E5E33727E3}|upGrad_Week4_Day1.csproj|solutionrelative:student_grade_evaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4C06C0-6E3C-89CB-F8B8-03E5E33727E3}|upGrad_Week4_Day1.csproj|d:\\visual studio data\\upgrad_week4_day1\\simple_calculator_using_switch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F4C06C0-6E3C-89CB-F8B8-03E5E33727E3}|upGrad_Week4_Day1.csproj|solutionrelative:simple_calculator_using_switch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Number_Analysis_Using_Loops.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week4_Day1\\Number_Analysis_Using_Loops.cs",
+              "RelativeDocumentMoniker": "Number_Analysis_Using_Loops.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week4_Day1\\Number_Analysis_Using_Loops.cs",
+              "RelativeToolTip": "Number_Analysis_Using_Loops.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T17:57:34.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee_Bonus_Calculator.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week4_Day1\\Employee_Bonus_Calculator.cs",
+              "RelativeDocumentMoniker": "Employee_Bonus_Calculator.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week4_Day1\\Employee_Bonus_Calculator.cs",
+              "RelativeToolTip": "Employee_Bonus_Calculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T17:31:15.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Simple_Calculator_Using_Switch.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week4_Day1\\Simple_Calculator_Using_Switch.cs",
+              "RelativeDocumentMoniker": "Simple_Calculator_Using_Switch.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week4_Day1\\Simple_Calculator_Using_Switch.cs",
+              "RelativeToolTip": "Simple_Calculator_Using_Switch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T17:08:46.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student_Grade_Evaluator.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week4_Day1\\Student_Grade_Evaluator.cs",
+              "RelativeDocumentMoniker": "Student_Grade_Evaluator.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week4_Day1\\Student_Grade_Evaluator.cs",
+              "RelativeToolTip": "Student_Grade_Evaluator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T16:57:00.439Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

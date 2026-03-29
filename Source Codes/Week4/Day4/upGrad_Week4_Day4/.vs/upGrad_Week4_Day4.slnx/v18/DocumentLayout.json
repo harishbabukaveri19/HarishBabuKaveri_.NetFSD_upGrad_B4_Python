@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Visual Studio Data\\upGrad_Week4_Day4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33EF45B8-540E-B747-C8F5-FB723B11844A}|upGrad_Week4_Day4.csproj|d:\\visual studio data\\upgrad_week4_day4\\student_score_analyzer_using_arrays_and_maps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EF45B8-540E-B747-C8F5-FB723B11844A}|upGrad_Week4_Day4.csproj|solutionrelative:student_score_analyzer_using_arrays_and_maps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EF45B8-540E-B747-C8F5-FB723B11844A}|upGrad_Week4_Day4.csproj|d:\\visual studio data\\upgrad_week4_day4\\stack_based_undo_system.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EF45B8-540E-B747-C8F5-FB723B11844A}|upGrad_Week4_Day4.csproj|solutionrelative:stack_based_undo_system.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EF45B8-540E-B747-C8F5-FB723B11844A}|upGrad_Week4_Day4.csproj|d:\\visual studio data\\upgrad_week4_day4\\employee_management_using_linked_list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EF45B8-540E-B747-C8F5-FB723B11844A}|upGrad_Week4_Day4.csproj|solutionrelative:employee_management_using_linked_list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EF45B8-540E-B747-C8F5-FB723B11844A}|upGrad_Week4_Day4.csproj|d:\\visual studio data\\upgrad_week4_day4\\student_record_management_system_using_record_data_structure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EF45B8-540E-B747-C8F5-FB723B11844A}|upGrad_Week4_Day4.csproj|solutionrelative:student_record_management_system_using_record_data_structure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EF45B8-540E-B747-C8F5-FB723B11844A}|upGrad_Week4_Day4.csproj|d:\\visual studio data\\upgrad_week4_day4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EF45B8-540E-B747-C8F5-FB723B11844A}|upGrad_Week4_Day4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student_Record_Management_System_Using_Record_Data_Structure.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week4_Day4\\Student_Record_Management_System_Using_Record_Data_Structure.cs",
+              "RelativeDocumentMoniker": "Student_Record_Management_System_Using_Record_Data_Structure.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week4_Day4\\Student_Record_Management_System_Using_Record_Data_Structure.cs",
+              "RelativeToolTip": "Student_Record_Management_System_Using_Record_Data_Structure.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADwAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T04:20:40.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee_Management_Using_Linked_List.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week4_Day4\\Employee_Management_Using_Linked_List.cs",
+              "RelativeDocumentMoniker": "Employee_Management_Using_Linked_List.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week4_Day4\\Employee_Management_Using_Linked_List.cs",
+              "RelativeToolTip": "Employee_Management_Using_Linked_List.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAADwvyEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T04:16:25.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Stack_Based_Undo_System.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week4_Day4\\Stack_Based_Undo_System.cs",
+              "RelativeDocumentMoniker": "Stack_Based_Undo_System.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week4_Day4\\Stack_Based_Undo_System.cs",
+              "RelativeToolTip": "Stack_Based_Undo_System.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T10:14:00.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student_Score_Analyzer_Using_Arrays_and_Maps.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week4_Day4\\Student_Score_Analyzer_Using_Arrays_and_Maps.cs",
+              "RelativeDocumentMoniker": "Student_Score_Analyzer_Using_Arrays_and_Maps.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week4_Day4\\Student_Score_Analyzer_Using_Arrays_and_Maps.cs",
+              "RelativeToolTip": "Student_Score_Analyzer_Using_Arrays_and_Maps.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T10:12:49.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week4_Day4\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week4_Day4\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T04:23:05.991Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

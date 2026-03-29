@@ -1,0 +1,14 @@
+﻿@model PatientDetails.Models.Patient
+
+<h2>Edit Patient</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+
+    <input asp-for="Name" class="form-control" />
+    <input asp-for="Age" class="form-control mt-2" />
+    <input asp-for="Disease" class="form-control mt-2" />
+
+    <button class="btn btn-warning mt-2">Update</button>
+    <a class="btn btn-secondary mt-2" asp-action="Index">Back</a>
+</form>

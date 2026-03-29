@@ -1,0 +1,12 @@
+﻿@model PatientDetails.Models.Patient
+
+<h2>Delete Patient</h2>
+
+<p>Are you sure you want to delete <b>@Model.Name</b>?</p>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+
+    <button class="btn btn-danger">Delete</button>
+    <a class="btn btn-secondary" asp-action="Index">Back</a>
+</form>

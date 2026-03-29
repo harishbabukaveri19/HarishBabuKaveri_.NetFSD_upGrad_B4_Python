@@ -1,0 +1,12 @@
+﻿@model Contact_Management_Web_Application.Models.ContactInfo
+
+<h2>Delete Contact</h2>
+
+<p>Are you sure you want to delete <b>@Model.FirstName</b>?</p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="ContactId" />
+
+    <button class="btn btn-danger">Delete</button>
+    <a class="btn btn-secondary" asp-action="ShowContacts">Cancel</a>
+</form>

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "upGrad_Week4_Day5/1.0.0": {
+        "runtime": {
+          "upGrad_Week4_Day5.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "upGrad_Week4_Day5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
