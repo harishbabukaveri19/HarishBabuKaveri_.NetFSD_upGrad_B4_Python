@@ -1,0 +1,4 @@
+Create  MVC project for entity for CRUD
+Entity - Patient
+
+GetAll() , GetBy<Entity>Id
