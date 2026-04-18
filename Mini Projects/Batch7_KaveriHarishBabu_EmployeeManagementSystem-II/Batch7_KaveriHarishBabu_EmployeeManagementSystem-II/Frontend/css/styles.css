@@ -1,0 +1,110 @@
+body { background-color: #f4f6f9; }
+.view-section { animation: fadeIn 0.3s ease-in-out; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.table-hover tbody tr:hover { background-color: #f1f5f9; cursor: default; }
+.sortable { cursor: pointer; user-select: none; }
+.sortable:hover { background-color: #e9ecef; }
+
+.avatar-circle {
+    width: 35px; height: 35px; border-radius: 50%; display: flex;
+    align-items: center; justify-content: center; color: white;
+    font-weight: bold; font-size: 14px;
+}
+
+/* Badge specific styling overrides */
+.badge-engineering { background-color: #0d6efd; }
+.badge-marketing { background-color: #fd7e14; }
+.badge-hr { background-color: #0dcaf0; }
+.badge-finance { background-color: #198754; }
+.badge-operations { background-color: #6c757d; }
+
+.dept-bar {
+    height: 8px; border-radius: 4px;
+}
+.cursor-pointer { cursor: pointer; }
+
+/* --- KPI Cards Hover Effect --- */
+#dashboard-view .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#dashboard-view .card:hover {
+    transform: translateY(-5px); /* This lifts the card up by 5 pixels */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important; /* This creates a softer, larger shadow underneath */
+    cursor: pointer; /* Changes the mouse arrow to a pointing hand */
+}
+
+@media (max-width: 576px) {
+    .card {
+        margin: 20px;
+    }
+}
+
+/* =========================================
+   NAVBAR TRANSPARENT BUTTONS
+   ========================================= */
+.btn-transparent {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.7) !important; /* Slightly faded white text */
+    border-radius: 6px; /* Rounds the corners of the button */
+    padding: 8px 16px !important; /* Makes it the size of a proper button */
+    transition: all 0.2s ease-in-out;
+}
+
+/* What happens when you hover over it OR when it is the 'active' page */
+.btn-transparent:hover, 
+.btn-transparent.active {
+    background-color: rgba(255, 255, 255, 0.15); /* Adds a soft, semi-transparent white background */
+    color: #ffffff !important; /* Makes the text bright white */
+}
+
+
+/* =========================================
+   AUTH SCREEN FULL-SCREEN BACKGROUND
+   ========================================= */
+
+/* Creates a fixed background that only appears when these views are active */
+#login-view::before, 
+#signup-view::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* A premium, soft corporate blue gradient */
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    z-index: -1; /* Keeps it behind the cards */
+}
+
+/* Optional: Slightly tint the global app background so dashboard cards pop too */
+body {
+    background-color: #f8f9fa; 
+}
+
+/* =========================================
+   THEME: SOFT INDIGO
+   ========================================= */
+body {
+    background-color: #f3f4fa !important; /* Soft indigo-tinted background */
+}
+
+.card {
+    background-color: #ffffff !important;
+    border: none !important;
+    border-radius: 12px !important;
+    box-shadow: 0 10px 20px rgba(102, 16, 242, 0.05) !important; /* Very soft purple shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#dashboard-view .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 30px rgba(102, 16, 242, 0.12) !important; /* Deeper purple on hover */
+}
+
+/* Hide default browser eye icon in password fields (specifically for Edge/Mobile) */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+    display: none;
+}
