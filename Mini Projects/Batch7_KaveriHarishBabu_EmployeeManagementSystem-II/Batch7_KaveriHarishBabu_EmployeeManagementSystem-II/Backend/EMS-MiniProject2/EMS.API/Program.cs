@@ -52,7 +52,8 @@ namespace EMS.API
             {
                 options.AddPolicy("AllowFrontend", policy =>
                 {
-                    policy.WithOrigins("http://127.0.0.1:5500", "http://localhost:5500") // Live Server ports
+                    //policy.WithOrigins("http://127.0.0.1:5500", "http://localhost:5500") // Live Server ports
+                    policy.AllowAnyOrigin()
                           .AllowAnyHeader()
                           .AllowAnyMethod();
                 });
