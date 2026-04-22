@@ -1,0 +1,13 @@
+﻿@model Product_Management.Models.Product
+
+<div class="container mt-4">
+    <h2>Product Details</h2>
+
+    <div class="card p-3 mt-3">
+        <p><strong>Id:</strong> @Model.Id</p>
+        <p><strong>Name:</strong> @Model.Name</p>
+        <p><strong>Price:</strong> ₹@Model.Price</p>
+    </div>
+
+    <a href="/Product/Index" class="btn btn-primary mt-3">Back</a>
+</div>

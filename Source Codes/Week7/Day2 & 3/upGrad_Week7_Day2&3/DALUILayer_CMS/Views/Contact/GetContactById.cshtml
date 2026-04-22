@@ -1,0 +1,12 @@
+﻿@model DALLayer_CMS.Models.ContactInfo
+
+<h2>Contact Details</h2>
+
+<p><b>Name:</b> @Model.FirstName @Model.LastName</p>
+<p><b>Email:</b> @Model.EmailId</p>
+<p><b>Mobile:</b> @Model.MobileNo</p>
+<p><b>Designation:</b> @Model.Designation</p>
+<p><b>Company:</b> @Model.Company?.CompanyName</p>
+<p><b>Department:</b> @Model.Department?.DepartmentName</p>
+
+<a asp-action="ShowContacts" class="btn btn-secondary">Back</a>

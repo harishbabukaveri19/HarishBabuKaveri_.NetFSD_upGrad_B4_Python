@@ -1,0 +1,27 @@
+﻿@model Contact_Management_Web_Application.Models.ContactInfo
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Contact Details</h2>
+
+    @if (Model != null)
+    {
+        <div class="card shadow p-4">
+            <p><strong>ID:</strong> @Model.ContactId</p>
+            <p><strong>Name:</strong> @Model.FirstName @Model.LastName</p>
+            <p><strong>Company:</strong> @Model.CompanyName</p>
+            <p><strong>Email:</strong> @Model.EmailId</p>
+            <p><strong>Mobile:</strong> @Model.MobileNo</p>
+            <p><strong>Designation:</strong> @Model.Designation</p>
+
+            <div class="text-center mt-3">
+                <a asp-action="ShowContacts" class="btn btn-primary">Back</a>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger text-center">
+            Contact not found
+        </div>
+    }
+</div>

@@ -1,0 +1,7 @@
+D:\Visual Studio Data\upGrad_Week7_Day1\Product_Management\obj\Release\net8.0\PubTmp\Out\Product_Management.exe
+D:\Visual Studio Data\upGrad_Week7_Day1\Product_Management\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\Visual Studio Data\upGrad_Week7_Day1\Product_Management\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\Visual Studio Data\upGrad_Week7_Day1\Product_Management\obj\Release\net8.0\PubTmp\Out\Product_Management.dll
+D:\Visual Studio Data\upGrad_Week7_Day1\Product_Management\obj\Release\net8.0\PubTmp\Out\Product_Management.deps.json
+D:\Visual Studio Data\upGrad_Week7_Day1\Product_Management\obj\Release\net8.0\PubTmp\Out\Product_Management.runtimeconfig.json
+D:\Visual Studio Data\upGrad_Week7_Day1\Product_Management\obj\Release\net8.0\PubTmp\Out\Product_Management.pdb

@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Product Entry";
+}
+
+<div class="container mt-5">
+
+    <!-- FORM -->
+    <div class="card p-4 shadow mb-4">
+        <h3 class="mb-3">Add Product</h3>
+
+        <form method="post" asp-action="Add" asp-controller="Product">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="text" name="name" class="form-control" placeholder="Product Name" required />
+                </div>
+
+                <div class="col-md-3">
+                    <input type="number" name="price" class="form-control" placeholder="Price" required />
+                </div>
+
+                <div class="col-md-3">
+                    <input type="number" name="quantity" class="form-control" placeholder="Quantity" required />
+                </div>
+
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100">Add</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- TABLE -->
+    <div class="card p-4 shadow">
+        <h3 class="mb-3">Product List</h3>
+
+        @if (ViewBag.Products != null && ViewBag.Products.Count > 0)
+        {
+            <table class="table table-bordered table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in ViewBag.Products)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Price</td>
+                            <td>@item.Quantity</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p class="text-muted">No products added yet.</p>
+        }
+
+    </div>
+
+</div>

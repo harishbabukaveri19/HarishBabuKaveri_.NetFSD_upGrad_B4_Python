@@ -1,0 +1,108 @@
+﻿@model List<EmployeeManagementSystem.Models.Employee>
+
+<div class="container mt-4">
+
+    <!-- Title -->
+    <h2 class="text-center mb-4">Employees</h2>
+
+    <!-- Search / Filter Card -->
+    <div class="card shadow p-3 mb-4">
+        <form asp-action="Index" method="get" class="row g-2">
+
+            <div class="col-md-3">
+                <input name="search" value="@Context.Request.Query["search"]"
+                       placeholder="Search by name"
+                       class="form-control" />
+            </div>
+
+            <div class="col-md-3">
+                <input name="department" value="@Context.Request.Query["department"]"
+                       placeholder="Department"
+                       class="form-control" />
+            </div>
+
+            <div class="col-md-3">
+                <select name="sortOrder" class="form-select">
+                    <option value="">Salary Asc</option>
+                    <option value="desc"
+                            selected="@(Context.Request.Query["sortOrder"] == "desc")">
+                        Salary Desc
+                    </option>
+                </select>
+            </div>
+
+            <div class="col-md-3 d-grid">
+                <button type="submit" class="btn btn-primary">
+                    Apply
+                </button>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- Top Bar -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+
+        <!-- Total Count -->
+        <span class="badge bg-dark fs-6">
+            Total Employees: @Model.Count
+        </span>
+
+        <!-- Add Button -->
+        <a asp-action="Create" class="btn btn-success">
+            + Add Employee
+        </a>
+
+    </div>
+
+    <!-- Table -->
+    <div class="table-responsive">
+        <table class="table table-striped table-hover table-bordered shadow text-center">
+
+            <thead class="table-dark">
+                <tr>
+                    <th class="text-center">Name</th>
+                    <th class="text-center">Department</th>
+                    <th class="text-center">Salary</th>
+                    <th class="text-center" style="width:160px;">Actions</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @if (Model.Any())
+                {
+                    foreach (var e in Model)
+                    {
+                        <tr>
+                            <td class="align-middle">@e.Name</td>
+                            <td class="align-middle">@e.Department</td>
+                            <td class="align-middle">₹ @e.Salary.ToString("N2")</td>
+
+                            <td class="align-middle">
+                                <a asp-action="Edit" asp-route-id="@e.Id"
+                                       class="btn btn-sm btn-warning me-1">
+                                    Edit
+                                </a>
+
+                                <a asp-action="Delete" asp-route-id="@e.Id"
+                                       class="btn btn-sm btn-danger">
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4" class="text-danger align-middle">
+                            No employees found
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    </div>
+
+</div>

@@ -1,0 +1,46 @@
+﻿@model List<Contact_Management_Web_Application.Models.ContactInfo>
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Contact List</h2>
+
+    <div class="text-end mb-3">
+        <a asp-action="AddContact" class="btn btn-primary">+ Add Contact</a>
+    </div>
+
+    <table class="table table-bordered table-striped table-hover shadow">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Email</th>
+                <th>Mobile</th>
+                <th>Designation</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Count > 0)
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ContactId</td>
+                        <td>@item.FirstName @item.LastName</td>
+                        <td>@item.CompanyName</td>
+                        <td>@item.EmailId</td>
+                        <td>@item.MobileNo</td>
+                        <td>@item.Designation</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="6" class="text-center text-danger">
+                        No contacts available
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

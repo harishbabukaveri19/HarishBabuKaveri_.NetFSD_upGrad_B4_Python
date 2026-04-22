@@ -1,0 +1,33 @@
+﻿@model DALLayer_CMS.Models.ContactInfo
+
+<h2>Edit Contact</h2>
+
+<form asp-action="EditContact" method="post">
+
+    <input type="hidden" asp-for="ContactId" />
+
+    <label>First Name</label>
+    <input asp-for="FirstName" class="form-control" />
+
+    <label>Last Name</label>
+    <input asp-for="LastName" class="form-control" />
+
+    <label>Email</label>
+    <input asp-for="EmailId" class="form-control" />
+
+    <label>Mobile</label>
+    <input asp-for="MobileNo" class="form-control" />
+
+    <label>Designation</label>
+    <input asp-for="Designation" class="form-control" />
+
+    <label>Company</label>
+    @Html.DropDownListFor(m => m.CompanyId, ViewBag.Companies as SelectList, "--Select Company--", new { @class = "form-control" })
+
+    <label>Department</label>
+    @Html.DropDownListFor(m => m.DepartmentId, ViewBag.Departments as SelectList, "--Select Department--", new { @class = "form-control" })
+
+    <br />
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>

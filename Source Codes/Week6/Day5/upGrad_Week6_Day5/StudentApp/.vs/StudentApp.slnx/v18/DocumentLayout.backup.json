@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Visual Studio Data\\upGrad_Week6_Day5\\StudentApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6845608-1401-7E73-C54C-C7ABD7B039A5}|StudentApp.csproj|d:\\visual studio data\\upgrad_week6_day5\\studentapp\\views\\student\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6845608-1401-7E73-C54C-C7ABD7B039A5}|StudentApp.csproj|solutionrelative:views\\student\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6845608-1401-7E73-C54C-C7ABD7B039A5}|StudentApp.csproj|d:\\visual studio data\\upgrad_week6_day5\\studentapp\\views\\student\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6845608-1401-7E73-C54C-C7ABD7B039A5}|StudentApp.csproj|solutionrelative:views\\student\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6845608-1401-7E73-C54C-C7ABD7B039A5}|StudentApp.csproj|d:\\visual studio data\\upgrad_week6_day5\\studentapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6845608-1401-7E73-C54C-C7ABD7B039A5}|StudentApp.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6845608-1401-7E73-C54C-C7ABD7B039A5}|StudentApp.csproj|d:\\visual studio data\\upgrad_week6_day5\\studentapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6845608-1401-7E73-C54C-C7ABD7B039A5}|StudentApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day5\\StudentApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day5\\StudentApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-20T09:56:29.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day5\\StudentApp\\Views\\Student\\Display.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Display.cshtml",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day5\\StudentApp\\Views\\Student\\Display.cshtml",
+              "RelativeToolTip": "Views\\Student\\Display.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-20T09:55:45.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day5\\StudentApp\\Views\\Student\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Register.cshtml",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day5\\StudentApp\\Views\\Student\\Register.cshtml",
+              "RelativeToolTip": "Views\\Student\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-20T09:54:56.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week6_Day5\\StudentApp\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week6_Day5\\StudentApp\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T09:53:07.096Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

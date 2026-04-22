@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Visual Studio Data\\upGrad_Week7_Day2\u00263\\DALLayer_CMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA7DF09-4930-44DE-6EA1-8263E0FBC7F2}|DALLayer_CMS.csproj|d:\\visual studio data\\upgrad_week7_day2\u00263\\dallayer_cms\\dallayer_cms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0AA7DF09-4930-44DE-6EA1-8263E0FBC7F2}|DALLayer_CMS.csproj|solutionrelative:dallayer_cms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA7DF09-4930-44DE-6EA1-8263E0FBC7F2}|DALLayer_CMS.csproj|d:\\visual studio data\\upgrad_week7_day2\u00263\\dallayer_cms\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA7DF09-4930-44DE-6EA1-8263E0FBC7F2}|DALLayer_CMS.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA7DF09-4930-44DE-6EA1-8263E0FBC7F2}|DALLayer_CMS.csproj|d:\\visual studio data\\upgrad_week7_day2\u00263\\dallayer_cms\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA7DF09-4930-44DE-6EA1-8263E0FBC7F2}|DALLayer_CMS.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DALLayer_CMS",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week7_Day2\u00263\\DALLayer_CMS\\DALLayer_CMS.csproj",
+              "RelativeDocumentMoniker": "DALLayer_CMS.csproj",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week7_Day2\u00263\\DALLayer_CMS\\DALLayer_CMS.csproj",
+              "RelativeToolTip": "DALLayer_CMS.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-20T17:30:17.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week7_Day2\u00263\\DALLayer_CMS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week7_Day2\u00263\\DALLayer_CMS\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T17:30:06.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Visual Studio Data\\upGrad_Week7_Day2\u00263\\DALLayer_CMS\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "D:\\Visual Studio Data\\upGrad_Week7_Day2\u00263\\DALLayer_CMS\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T11:55:24.077Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

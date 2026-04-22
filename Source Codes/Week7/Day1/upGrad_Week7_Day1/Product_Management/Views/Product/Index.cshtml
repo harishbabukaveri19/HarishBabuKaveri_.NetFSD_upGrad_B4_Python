@@ -1,0 +1,33 @@
+﻿@model List<Product_Management.Models.Product>
+
+<div class="container mt-4">
+    <h2 class="mb-3">Product List</h2>
+
+    <a href="/Product/Add" class="btn btn-primary mb-3">Add Product</a>
+
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>₹@item.Price</td>
+                    <td>
+                        <a href="/Product/Details/@item.Id" class="btn btn-info btn-sm">View</a>
+                        <a href="/Product/Delete/@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

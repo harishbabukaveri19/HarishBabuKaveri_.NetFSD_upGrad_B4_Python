@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Feedback_Form/1.0.0": {
+        "runtime": {
+          "Feedback_Form.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Feedback_Form/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

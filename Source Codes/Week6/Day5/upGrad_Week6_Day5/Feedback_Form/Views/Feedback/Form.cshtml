@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Feedback Form";
+}
+
+<div class="container mt-5">
+
+    <div class="card p-4 shadow">
+
+        <h3 class="mb-4 text-center">Feedback Form</h3>
+
+        <form method="post" asp-action="Submit" asp-controller="Feedback">
+
+            <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" name="name" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Comments</label>
+                <textarea name="comments" class="form-control" required></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Rating (1–5)</label>
+                <select name="rating" class="form-select" required>
+                    <option value="">Select Rating</option>
+                    <option value="1">1 - Poor</option>
+                    <option value="2">2 - Average</option>
+                    <option value="3">3 - Good</option>
+                    <option value="4">4 - Very Good</option>
+                    <option value="5">5 - Excellent</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </form>
+
+        <!-- RESULT MESSAGE -->
+        @if (ViewData["Message"] != null)
+        {
+            <div class="alert mt-4 text-center
+                @(Convert.ToInt32(ViewData["Rating"]) >= 4 ? "alert-success" : "alert-warning")">
+
+                <h5>@ViewData["Message"]</h5>
+                <p>Rating Given: <strong>@ViewData["Rating"]</strong></p>
+                <p>Thank you, <strong>@ViewData["Name"]</strong></p>
+            </div>
+        }
+
+    </div>
+
+</div>

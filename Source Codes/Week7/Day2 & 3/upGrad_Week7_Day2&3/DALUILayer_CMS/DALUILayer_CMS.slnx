@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../DALLayer_CMS/DALLayer_CMS.csproj" />
+  <Project Path="DALUILayer_CMS.csproj" />
+</Solution>

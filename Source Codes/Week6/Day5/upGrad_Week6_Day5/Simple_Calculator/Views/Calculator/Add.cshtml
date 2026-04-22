@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Simple Calculator";
+}
+
+<div class="container mt-5">
+    <div class="card shadow p-4">
+
+        <h2 class="text-center mb-4">Simple Calculator</h2>
+
+        <form method="post" asp-action="Add" asp-controller="Calculator">
+
+            <div class="mb-3">
+                <label class="form-label">Number 1</label>
+                <input type="number" name="num1" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Number 2</label>
+                <input type="number" name="num2" class="form-control" required />
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Add</button>
+            </div>
+
+        </form>
+
+        <hr />
+
+        @if (ViewData["Result"] != null)
+        {
+            <div class="alert alert-success mt-3 text-center">
+                <h4>
+                    Result: @ViewData["Num1"] + @ViewData["Num2"] =
+                    <strong>@ViewData["Result"]</strong>
+                </h4>
+            </div>
+        }
+
+    </div>
+</div>
